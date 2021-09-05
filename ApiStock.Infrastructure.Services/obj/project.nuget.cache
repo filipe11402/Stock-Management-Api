@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vcwjeNqB0FQbZ6wyFL4hhQd/5zYSru9j2VvvKpJgjMnQXE9ET2zyy8PRSIoBXM0Qk/xo/ZAeDBk3Ap56aXZwLg==",
+  "dgSpecHash": "l8pw+SK1kbt7jU6YnMox3JMX3GATkSNjDGze1DxVnWLN9R+ceyERTqpVM3RIjaWB5dg1CTAdDfplNY6uR91uwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\apistock\\ApiStock.Infrastructure.Services\\ApiStock.Infrastructure.Services.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\filip\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
-    "C:\\Users\\filip\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
