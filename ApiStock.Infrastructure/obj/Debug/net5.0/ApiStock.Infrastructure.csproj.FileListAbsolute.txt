@@ -1,0 +1,15 @@
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\bin\Debug\net5.0\ApiStock.Infrastructure.deps.json
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\bin\Debug\net5.0\ApiStock.Infrastructure.runtimeconfig.json
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\bin\Debug\net5.0\ApiStock.Infrastructure.runtimeconfig.dev.json
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\bin\Debug\net5.0\ApiStock.Infrastructure.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\bin\Debug\net5.0\ref\ApiStock.Infrastructure.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\bin\Debug\net5.0\ApiStock.Infrastructure.pdb
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\obj\Debug\net5.0\ApiStock.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\obj\Debug\net5.0\ApiStock.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\obj\Debug\net5.0\ApiStock.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\obj\Debug\net5.0\ApiStock.Infrastructure.AssemblyInfo.cs
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\obj\Debug\net5.0\ApiStock.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\obj\Debug\net5.0\ApiStock.Infrastructure.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\obj\Debug\net5.0\ref\ApiStock.Infrastructure.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\obj\Debug\net5.0\ApiStock.Infrastructure.pdb
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure\obj\Debug\net5.0\ApiStock.Infrastructure.genruntimeconfig.cache

@@ -1,3 +1,4 @@
+using ApiStock.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,8 @@ namespace ApiStock.Application
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiStock.Application", Version = "v1" });
             });
+
+            services.AddInfrastructure(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
