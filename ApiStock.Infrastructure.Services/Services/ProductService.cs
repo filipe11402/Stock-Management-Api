@@ -1,6 +1,7 @@
 ﻿using ApiStock.Domain.Abstract;
 using ApiStock.Domain.Models;
 using ApiStock.Infrastructure.Context;
+using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +13,12 @@ namespace ApiStock.Infrastructure.Services.Services
     public class ProductService : IProductService
     {
         private readonly ApplicationDbContext _dbContext;
+        private readonly IMapper _mapper;
 
-        public ProductService(ApplicationDbContext dbContext)
+        public ProductService(ApplicationDbContext dbContext, IMapper mapper)
         {
             this._dbContext = dbContext;
+            this._mapper = mapper;
         }
 
         public Task<ProductModel> Add(ProductModel newProduct)

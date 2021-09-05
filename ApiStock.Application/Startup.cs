@@ -1,5 +1,6 @@
 using ApiStock.Infrastructure;
 using ApiStock.Infrastructure.Services;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,6 +13,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace ApiStock.Application
@@ -39,6 +41,7 @@ namespace ApiStock.Application
             services.AddAutoMapper(
                 typeof(Startup));
             services.AddServices();
+            services.AddMediatR(Assembly.GetExecutingAssembly());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
