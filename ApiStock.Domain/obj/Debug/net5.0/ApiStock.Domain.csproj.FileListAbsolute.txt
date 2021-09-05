@@ -1,0 +1,12 @@
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\bin\Debug\net5.0\ApiStock.Domain.deps.json
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\bin\Debug\net5.0\ApiStock.Domain.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\bin\Debug\net5.0\ref\ApiStock.Domain.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\bin\Debug\net5.0\ApiStock.Domain.pdb
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\obj\Debug\net5.0\ApiStock.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\obj\Debug\net5.0\ApiStock.Domain.AssemblyInfoInputs.cache
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\obj\Debug\net5.0\ApiStock.Domain.AssemblyInfo.cs
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\obj\Debug\net5.0\ApiStock.Domain.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\obj\Debug\net5.0\ApiStock.Domain.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\obj\Debug\net5.0\ref\ApiStock.Domain.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\obj\Debug\net5.0\ApiStock.Domain.pdb
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Domain\obj\Debug\net5.0\ApiStock.Domain.csproj.AssemblyReference.cache
