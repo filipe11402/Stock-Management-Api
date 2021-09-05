@@ -67,3 +67,5 @@ C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\A
 C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\ApiStock.Infrastructure.Services.dll
 C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\ApiStock.Domain.pdb
 C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\ApiStock.Infrastructure.Services.pdb
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\MediatR.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

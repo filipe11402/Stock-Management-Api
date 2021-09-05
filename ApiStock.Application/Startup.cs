@@ -1,5 +1,6 @@
 using ApiStock.Infrastructure;
 using ApiStock.Infrastructure.Services;
+using ApiStock.Infrastructure.Services.Mappers;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -39,7 +40,8 @@ namespace ApiStock.Application
 
             services.AddInfrastructure(Configuration);
             services.AddAutoMapper(
-                typeof(Startup));
+                typeof(Startup),
+                typeof(ProductDomainProfile));
             services.AddServices();
             services.AddMediatR(Assembly.GetExecutingAssembly());
         }

@@ -21,7 +21,7 @@ namespace ApiStock.Infrastructure.Services.Mappers
                 {
                     if (string.IsNullOrWhiteSpace(src.Id)) 
                     {
-                        dst.Id = new Guid().ToString();
+                        dst.Id = Guid.NewGuid().ToString();
                     }
                 }
             );

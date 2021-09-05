@@ -11,7 +11,8 @@ namespace ApiStock.Domain.Abstract
     {
         Task<ProductModel> Add(ProductModel newProduct);
         Task<bool> Update(ProductModel updatedProduct);
-        Task<bool> Delete(int productId);
-        Task<ProductModel> FetchProduct(int productId);
+        Task<bool> Delete(string productId);
+        Task<ProductModel> FetchProduct(string productId);
+        Task<IEnumerable<ProductModel>> FetchAll();
     }
 }

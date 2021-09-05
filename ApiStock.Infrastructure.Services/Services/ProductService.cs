@@ -1,6 +1,7 @@
 ﻿using ApiStock.Domain.Abstract;
 using ApiStock.Domain.Models;
 using ApiStock.Infrastructure.Context;
+using ApiStock.Infrastructure.Entities;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -21,24 +22,71 @@ namespace ApiStock.Infrastructure.Services.Services
             this._mapper = mapper;
         }
 
-        public Task<ProductModel> Add(ProductModel newProduct)
+        public async Task<ProductModel> Add(ProductModel newProduct)
         {
-            throw new NotImplementedException();
+            if (this._dbContext.Products.FirstOrDefault(token => token.Name.ToLower() == newProduct.Name.ToLower()) != null) 
+            {
+                return null;
+            }
+
+            var dataModel = this._mapper.Map<Product>(newProduct);
+
+            var creationResponse = await this._dbContext.Products.AddAsync(dataModel);
+
+            await this._dbContext.SaveChangesAsync();
+
+            newProduct.Id = dataModel.Id;
+
+            return newProduct;
         }
 
-        public Task<bool> Delete(int productId)
+        public async Task<bool> Delete(string productId)
         {
-            throw new NotImplementedException();
+            var product = await this._dbContext.Products.FindAsync(productId);
+
+            if (product == null) 
+            {
+                return false;
+            }
+
+            this._dbContext.Products.Remove(product);
+
+            await this._dbContext.SaveChangesAsync();
+
+            return true;
         }
 
-        public Task<ProductModel> FetchProduct(int productId)
+        public async Task<IEnumerable<ProductModel>> FetchAll()
         {
-            throw new NotImplementedException();
+            var products = this._dbContext.Products;
+
+            var productList = this._mapper.Map<IEnumerable<ProductModel>>(products);
+
+            return productList;
         }
 
-        public Task<bool> Update(ProductModel updatedProduct)
+        public async Task<ProductModel> FetchProduct(string productId)
         {
-            throw new NotImplementedException();
+            var product = await this._dbContext.Products.FindAsync(productId);
+
+            if (product == null) { return null; }
+
+            var productDto = this._mapper.Map<ProductModel>(product);
+
+            return productDto;
+        }
+
+        public async Task<bool> Update(ProductModel updatedProduct)
+        {
+            var product = await this.FetchProduct(updatedProduct.Id);
+
+            if (product == null) { return false; }
+
+            var dbProduct = this._mapper.Map<Product>(product);
+
+            this._dbContext.Products.Update(dbProduct);
+
+            return true;
         }
     }
 }
