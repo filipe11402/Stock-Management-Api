@@ -1,0 +1,17 @@
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\obj\Debug\net5.0\ApiStock.Infrastructure.Services.csproj.AssemblyReference.cache
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\obj\Debug\net5.0\ApiStock.Infrastructure.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\obj\Debug\net5.0\ApiStock.Infrastructure.Services.AssemblyInfoInputs.cache
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\obj\Debug\net5.0\ApiStock.Infrastructure.Services.AssemblyInfo.cs
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\obj\Debug\net5.0\ApiStock.Infrastructure.Services.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\bin\Debug\net5.0\ApiStock.Infrastructure.Services.deps.json
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\bin\Debug\net5.0\ApiStock.Infrastructure.Services.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\bin\Debug\net5.0\ref\ApiStock.Infrastructure.Services.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\bin\Debug\net5.0\ApiStock.Infrastructure.Services.pdb
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\bin\Debug\net5.0\ApiStock.Domain.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\bin\Debug\net5.0\ApiStock.Infrastructure.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\bin\Debug\net5.0\ApiStock.Domain.pdb
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\bin\Debug\net5.0\ApiStock.Infrastructure.pdb
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\obj\Debug\net5.0\ApiStock.Infrastructure.Services.csproj.CopyComplete
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\obj\Debug\net5.0\ApiStock.Infrastructure.Services.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\obj\Debug\net5.0\ref\ApiStock.Infrastructure.Services.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Infrastructure.Services\obj\Debug\net5.0\ApiStock.Infrastructure.Services.pdb

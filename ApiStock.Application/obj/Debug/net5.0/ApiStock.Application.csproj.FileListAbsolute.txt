@@ -61,3 +61,9 @@ C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\A
 C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\ApiStock.Infrastructure.pdb
 C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\Humanizer.dll
 C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\ApiStock.Domain.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\ApiStock.Infrastructure.Services.dll
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\ApiStock.Domain.pdb
+C:\Users\filip\Desktop\stuff\C#\apistock\ApiStock.Application\bin\Debug\net5.0\ApiStock.Infrastructure.Services.pdb
