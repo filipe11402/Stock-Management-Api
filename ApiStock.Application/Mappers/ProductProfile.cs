@@ -29,6 +29,12 @@ namespace ApiStock.Application.Mappers
                 .ForMember(d => d.Name, (o) => o.MapFrom(src => src.Name))
                 .ForMember(d => d.AmountInStock, (o) => o.MapFrom(src => src.AmountInStock))
                 .ForMember(d => d.UnitPrice, (o) => o.MapFrom(src => src.UnitPrice));
+
+            CreateMap<UpdateProductModel, ProductModel>()
+                .ForMember(d => d.Id, (o) => o.MapFrom(src => src.Id))
+                .ForMember(d => d.Name, (o) => o.MapFrom(src => src.Name))
+                .ForMember(d => d.AmountInStock, (o) => o.MapFrom(src => src.AmountInStock))
+                .ForMember(d => d.UnitPrice, (o) => o.MapFrom(src => src.UnitPrice));
         }
     }
 }

@@ -3,6 +3,7 @@ using ApiStock.Domain.Models;
 using ApiStock.Infrastructure.Context;
 using ApiStock.Infrastructure.Entities;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,7 +43,7 @@ namespace ApiStock.Infrastructure.Services.Services
 
         public async Task<bool> Delete(string productId)
         {
-            var product = await this._dbContext.Products.FindAsync(productId);
+            var product = await this._dbContext.Products.FirstOrDefaultAsync(token => token.Id == productId);
 
             if (product == null) 
             {
@@ -67,7 +68,7 @@ namespace ApiStock.Infrastructure.Services.Services
 
         public async Task<ProductModel> FetchProduct(string productId)
         {
-            var product = await this._dbContext.Products.FindAsync(productId);
+            var product = await this._dbContext.Products.FirstOrDefaultAsync(token => token.Id == productId);
 
             if (product == null) { return null; }
 
@@ -78,13 +79,15 @@ namespace ApiStock.Infrastructure.Services.Services
 
         public async Task<bool> Update(ProductModel updatedProduct)
         {
-            var product = await this.FetchProduct(updatedProduct.Id);
+            var product = await this._dbContext.Products.FirstOrDefaultAsync(token => token.Id == updatedProduct.Id);
 
             if (product == null) { return false; }
 
-            var dbProduct = this._mapper.Map<Product>(product);
+            product.Name = updatedProduct.Name;
+            product.AmountInStock = updatedProduct.AmountInStock;
+            product.UnitPrice = updatedProduct.UnitPrice;
 
-            this._dbContext.Products.Update(dbProduct);
+            await this._dbContext.SaveChangesAsync();
 
             return true;
         }
